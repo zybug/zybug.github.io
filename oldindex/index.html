@@ -1,0 +1,90 @@
+<html>
+	<head>
+	<meta charset="utf-8" />
+		<style media="screen" type="text/css">
+			img { display: none; }
+			body { overflow: hidden; }
+			#canvas { position: absolute; top: 0px; left: 0px; }
+		</style>
+		<title>关于我</title>
+		<script src="rainyday.js" type="text/javascript"></script>
+		<script type="text/javascript">
+ 			function demo() {
+				var engine = new RainyDay('canvas','demo2', window.innerWidth, window.innerHeight);
+ 					engine.gravity = engine.GRAVITY_NON_LINEAR;
+ 					engine.trail = engine.TRAIL_DROPS;
+ 					engine.VARIABLE_GRAVITY_ANGLE = Math.PI / 8;
+					engine.rain([
+						engine.preset(0, 2, 0.5),
+						engine.preset(4, 4, 1)
+					], 50);
+ 			}
+		</script>
+		
+		<link href="css/impress-demo.css" rel="stylesheet" />
+		
+		<EMBED src="123.mp3" loop="false" width="0" height="20">
+		
+	</head>
+	
+	
+	<body onLoad="demo();">
+	
+		<img id="demo2" src="123.jpg" />
+		
+		<div id="cholder">
+			<canvas id="canvas"></canvas>
+		</div>
+		<div style="text-align:center;">
+</div>
+
+<body class="impress-not-supported">
+
+
+
+<div class="fallback-message">
+    <p>您的浏览器 <b>不支持</b> impress.js的展示要求, 将为您呈现简化版的展示</p>
+    <p>为了获取最佳效果，请使用最新版的<b>Chrome</b>, <b>Safari</b> 或 <b>Firefox</b> 浏览器</p>
+</div>
+
+
+<div id="impress">
+
+    <div id="now" class="step" data-x="-1000" data-y="-1500">
+        
+         <b class="now_me"><font size = "30px" color = white><q>时间在 <b>流失</b> ... </q></font></b>
+        <ul>
+        </br>
+        </br>
+            <li><b class="unity"><center><font size = "12px" color= white>网站正在建设中</font></center></b></li>
+           
+        </ul>
+		
+    </div>
+	
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+		<font color = white><q>我的小站即将 <strong><b>上线</b></strong></q></font>
+    </div>
+  
+    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
+        <font color = white><q>关于我的站点<b></b></q></font>
+    </div>
+
+
+</div>
+
+
+<div class="hint">
+    <p>使用空格或方向键继续</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>在左侧或右侧点击继续</p>";
+}
+</script>
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+
+	</body>
+</html>
