@@ -10,7 +10,7 @@ title: iOS 学习组
 email: zy@zybug.com
 description: > # iOS 学习组 | 新的开始 新的希望
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://githb.zybug.com" # the base hostname & protocol for your site
+url: "http://github.zybug.com" # the base hostname & protocol for your site
 github_username:  zybug
 
 # Build settings
