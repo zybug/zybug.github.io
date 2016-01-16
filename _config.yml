@@ -1,16 +1,13 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno' 
-baseurl: '/jekyll-uno/'
-# google_analytics: 'UA-XXXXXX-X'
-
-author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+<<<<<<< HEAD
+=======
+title: iOS 学习组
+email: zy@zybug.com
+description: > # iOS 学习组 | 新的开始 新的希望
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://githb.zybug.com" # the base hostname & protocol for your site
+github_username:  zybug
+>>>>>>> parent of d4866e6... 修改主页
 
 # Build settings
 destination: _site
