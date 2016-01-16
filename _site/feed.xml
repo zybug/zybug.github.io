@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Jan 2016 09:35:24 +0800</pubDate>
-    <lastBuildDate>Sat, 16 Jan 2016 09:35:24 +0800</lastBuildDate>
+    <title>iOS 学习组</title>
+    <description></description>
+    <link>http://githb.zybug.com/</link>
+    <atom:link href="http://githb.zybug.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 16 Jan 2016 09:54:56 +0800</pubDate>
+    <lastBuildDate>Sat, 16 Jan 2016 09:54:56 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -28,8 +27,8 @@
 
 </description>
         <pubDate>Sat, 16 Jan 2016 09:22:59 +0800</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2016/01/16/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/01/16/welcome-to-jekyll.html</guid>
+        <link>http://githb.zybug.com/jekyll/update/2016/01/16/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://githb.zybug.com/jekyll/update/2016/01/16/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -59,8 +58,8 @@
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 </description>
         <pubDate>Sat, 16 Jan 2016 09:22:59 +0800</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2016/01/16/Hello.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/01/16/Hello.html</guid>
+        <link>http://githb.zybug.com/jekyll/update/2016/01/16/Hello.html</link>
+        <guid isPermaLink="true">http://githb.zybug.com/jekyll/update/2016/01/16/Hello.html</guid>
         
         
         <category>jekyll</category>
