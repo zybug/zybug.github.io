@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  博客相关功能测试
-tags:  测试文章
-categories: 博客文章
+tags:  React-Native
+categoriy :test 
 author: zybug
 ---
 
