@@ -2,7 +2,7 @@
 layout: post
 title:  博客相关功能测试
 tags:  React-Native
-categoriy :test 
+categoriy : test 
 author: zybug
 ---
 
