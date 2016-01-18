@@ -1,0 +1,115 @@
+.navbar-pithy {
+  min-height: 50px;
+  background-color: $white;
+  border: none;
+  border-radius: 0;
+  box-shadow: 1px 1px 5px $gray-lighter;
+
+
+  .navbar-brand {
+    height: 50px;
+    padding: 15px;
+
+    color: $primary-color;
+  }
+
+  .navbar-brand:hover{
+    color: $primary-color;
+  }
+
+  .navbar-form {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: $gray-darker;
+    line-height: 20px;
+    border: none;
+  }
+
+  .navbar-nav > li > a:hover {
+      background-color: $gray-lighter;
+  }
+
+  .navbar-toggle{
+    margin-top: 4px;
+    margin-bottom: 0;
+    padding:5px 10px;
+    background: $primary-color;
+    color: $white;
+  }
+
+
+
+  dl{
+    position:absolute;
+    display:block;
+    top:40px;
+    left: -25px;
+    width:165px;
+    background:#222222;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -webkit-box-shadow:1px 1px 3px #292929;
+    -moz-box-shadow:1px 1px 3px #292929;
+    z-index:10;
+  }
+
+  li:hover dd{
+      margin-top:0;
+      opacity:1;
+  }
+
+  li dd:nth-child(1){
+      -webkit-transition-duration: 0.1s;
+      -moz-transition-duration: 0.1s;
+  }
+  li dd:nth-child(2){
+      -webkit-transition-duration: 0.2s;
+      -moz-transition-duration: 0.2s;
+  }
+  li dd:nth-child(3){
+      -webkit-transition-duration: 0.3s;
+      -moz-transition-duration: 0.3s;
+  }
+  li dd:nth-child(4){
+      -webkit-transition-duration: 0.4s;
+      -moz-transition-duration: 0.4s;
+  }
+
+ 
+
+  dd{
+    margin-top:-60px;
+    opacity:0;
+    width:145px;
+    -webkit-transition-property:all;
+    /*-webkit-transition-timing-function: cubic-bezier(5,0,5,0);*/
+    -moz-transition-property: all;
+    /*-moz-transition-timing-function: cubic-bezier(5,0,5,0);*/
+    /*-webkit-transition-delay:5s;*/
+    text-align: right;
+  ｝
+
+  .arrow{
+    margin:0 auto;
+    margin-top:-5px;
+    display:block;
+    width:10px;
+    height:10px;
+    background: #4a6196;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+  }
+
+
+  dt{
+    display:none;
+    margin-top:-25px;
+    padding-top:15px;
+    height:10px;
+  }
+  }
+}

@@ -1,7 +1,9 @@
 ---
-layout: page
-title: About
+layout: about
 permalink: /about/
 ---
 
-关于我？
+想要了解作者，请您多关注作者的相关作品！
+                 
+                 
+                 
