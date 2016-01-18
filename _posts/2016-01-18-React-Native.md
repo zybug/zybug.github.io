@@ -2,7 +2,7 @@
 layout: post
 title:  博客相关功能测试
 tags:  React-Native
-categories: [React-Native]
+categories: [react-native]
 author: zybug
 ---
 
@@ -19,4 +19,4 @@ author: zybug
 }
 {% endhighlight %}
 
-![demo image](./images/demo001.png)
+![demo image](../images/demo001.png)
