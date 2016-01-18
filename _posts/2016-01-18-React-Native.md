@@ -2,7 +2,7 @@
 layout: post
 title:  博客相关功能测试
 tags:  测试文章
-categories: ［test］ 
+categories: [test] 
 author: zybug
 ---
 
