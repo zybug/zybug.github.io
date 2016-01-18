@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  博客相关功能测试
-tags:  React-Native
-categories: [react native]
+tags:  测试文件
+categories: 博客文章
 author: zybug
 ---
 
 
-这个是我第一次尝试使用React－Native.
+测试功能是否正常可以使用.
 
 #下面是OC代码显示测试
 {% highlight objective-c %} 
