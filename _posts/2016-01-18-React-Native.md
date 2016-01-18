@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React-Native 学习
+title:  博客相关功能测试
 tags:  React-Native
 categories: [React-Native]
 author: zybug
@@ -9,7 +9,7 @@ author: zybug
 
 这个是我第一次尝试使用React－Native.
 
-####下面是OC代码显示测试
+#下面是OC代码显示测试
 {% highlight objective-c %} 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     if (scrollView.contentOffset.y <= 0) {
@@ -18,3 +18,5 @@ author: zybug
     }
 }
 {% endhighlight %}
+
+![demo image](./images/demo001.png)
