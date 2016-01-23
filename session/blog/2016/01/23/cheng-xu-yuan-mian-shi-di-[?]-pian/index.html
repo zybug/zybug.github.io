@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>iOS 学习组</title>
+  <title>程序员面试第一篇 - iOS 学习组</title>
   <meta name="author" content="zybug">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://github.zybug.com/session/">
+  <link rel="canonical" href="http://github.zybug.com/session/blog/2016/01/23/cheng-xu-yuan-mian-shi-di-%5B%3F%5D-pian/">
   <link href="/session/favicon.png" rel="icon">
   <link href="/session/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="iOS 学习组" type="application/atom+xml">
@@ -64,15 +64,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/session/blog/2016/01/23/cheng-xu-yuan-mian-shi-di-%5B%3F%5D-pian/">程序员面试第一篇</a></h1>
+      <h1 class="entry-title">程序员面试第一篇</h1>
     
     
       <p class="meta">
@@ -88,7 +85,7 @@
   </header>
 
 
-  <div class="entry-content"><h1>引言</h1>
+<div class="entry-content"><h1>引言</h1>
 
 <p>话说，其他的大牛都写了年终总结什么的，我现在还没有写、这个公司也没有让我写述职报告，以前的公司过年的时候还让写写这个，现在貌似也不用写了，那么就写一篇面试题。</p>
 
@@ -163,100 +160,50 @@
 3、后序遍历 （Post－Order Traversal）：按后序遍历左子树；按后序遍历右子树；访问根结点。
 </code></pre>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
+  
+
+<span class="byline author vcard">Posted by <span class="fn">zybug</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2016-01-23T19:27:51+08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2016</span></span> <span class='time'>7:27 pm</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/session/blog/categories/mian-shi/'>面试</a>
+  
+</span>
+
+
+    </p>
     
-      <h1 class="entry-title"><a href="/session/blog/2016/01/23/wo-de-octopress-you-lai/">我的 Octopress 由来</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2016-01-23T10:13:08+08:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2016</span></span> <span class='time'>10:13 am</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h1>引言</h1>
-
-<p>说实话，这几天把常见的github pages 能搭建的博客全部完了一遍，所以这个就是由来</p>
-
-<h1>搭建过程</h1>
-
-<p>说明： 一下全部是在Mac OS X 系统中进行
-1、</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># git clone git://github.com/imathis/octopress.git octopress</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>2、</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># bundle install </span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>3、</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># rake install </span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>4、先重新生成一次网站</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># rake generate </span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>然后准备预览</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># rake preview </span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>5、然后就可以上传Github了，所以我就来了。</p>
-
-<h1>发布文章</h1>
-
-<p>其实文章的发布就更加简单了</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># rake new_post[“我的第一篇文章”] </span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>这样你就可以去写第一篇文章了，是不是很简单啊。</p>
+      <div class="sharing">
+  
+  
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/session/blog/2016/01/23/wo-de-octopress-you-lai/" title="Previous Post: 我的 Octopress 由来">&laquo; 我的 Octopress 由来</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/session/blog/archives">Blog Archives</a>
-    
-  </div>
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -309,6 +256,7 @@
 
   
 </aside>
+
 
     </div>
   </div>

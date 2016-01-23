@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[iOS 学习组]]></title>
-  <link href="http://github.zybug.com/session/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 面试 | iOS 学习组]]></title>
+  <link href="http://github.zybug.com/session/blog/categories/mian-shi/atom.xml" rel="self"/>
   <link href="http://github.zybug.com/session/"/>
   <updated>2016-01-23T20:57:32+08:00</updated>
   <id>http://github.zybug.com/session/</id>
@@ -24,7 +24,7 @@
 
 <h1>正文</h1>
 
-<p>说明：全部是以C／C++为基础举例的，如果有什么不正确的地方，欢迎大家指正，非常感谢，我的邮箱<a href="&#x6d;&#97;&#105;&#108;&#x74;&#111;&#58;&#x7a;&#121;&#x40;&#x7a;&#x79;&#x62;&#117;&#x67;&#46;&#99;&#x6f;&#x6d;">&#x7a;&#121;&#64;&#122;&#121;&#98;&#117;&#103;&#46;&#x63;&#111;&#x6d;</a></p>
+<p>说明：全部是以C／C++为基础举例的，如果有什么不正确的地方，欢迎大家指正，非常感谢，我的邮箱<a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x7a;&#x79;&#x40;&#122;&#121;&#98;&#117;&#103;&#46;&#x63;&#x6f;&#x6d;">&#x7a;&#x79;&#x40;&#122;&#x79;&#98;&#x75;&#103;&#46;&#x63;&#111;&#109;</a></p>
 
 <h1>1、堆栈（操作系统意义上的）</h1>
 
@@ -92,68 +92,6 @@
 2、中序遍历 （In－Order Traversal） ： 按中序遍历左子树；访问根结点；按中序遍历右子树。特别地，对于二分查找树而言，中序遍历可以获取一个由小到大或者由大到小的有序序列。
 3、后序遍历 （Post－Order Traversal）：按后序遍历左子树；按后序遍历右子树；访问根结点。
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[我的 Octopress 由来]]></title>
-    <link href="http://github.zybug.com/session/blog/2016/01/23/wo-de-octopress-you-lai/"/>
-    <updated>2016-01-23T10:13:08+08:00</updated>
-    <id>http://github.zybug.com/session/blog/2016/01/23/wo-de-octopress-you-lai</id>
-    <content type="html"><![CDATA[<h1>引言</h1>
-
-<p>说实话，这几天把常见的github pages 能搭建的博客全部完了一遍，所以这个就是由来</p>
-
-<h1>搭建过程</h1>
-
-<p>说明： 一下全部是在Mac OS X 系统中进行
-1、</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># git clone git://github.com/imathis/octopress.git octopress</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>2、</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># bundle install </span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>3、</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># rake install </span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>4、先重新生成一次网站</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># rake generate </span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>然后准备预览</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># rake preview </span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>5、然后就可以上传Github了，所以我就来了。</p>
-
-<h1>发布文章</h1>
-
-<p>其实文章的发布就更加简单了</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># rake new_post[“我的第一篇文章”] </span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>这样你就可以去写第一篇文章了，是不是很简单啊。</p>
 ]]></content>
   </entry>
   
