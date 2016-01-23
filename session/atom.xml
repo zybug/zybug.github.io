@@ -4,7 +4,7 @@
   <title><![CDATA[iOS 学习组]]></title>
   <link href="http://github.zybug.com/session/atom.xml" rel="self"/>
   <link href="http://github.zybug.com/session/"/>
-  <updated>2016-01-23T09:38:44+08:00</updated>
+  <updated>2016-01-23T10:15:06+08:00</updated>
   <id>http://github.zybug.com/session/</id>
   <author>
     <name><![CDATA[zybug]]></name>
@@ -12,5 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[我的 Octopress 由来]]></title>
+    <link href="http://github.zybug.com/session/blog/2016/01/23/wo-de-octopress-you-lai/"/>
+    <updated>2016-01-23T10:13:08+08:00</updated>
+    <id>http://github.zybug.com/session/blog/2016/01/23/wo-de-octopress-you-lai</id>
+    <content type="html"><![CDATA[<h1>引言</h1>
+
+<p>说实话，这几天把常见的github pages 能搭建的博客全部完了一遍，所以这个就是由来</p>
+
+<h1>搭建过程</h1>
+]]></content>
+  </entry>
   
 </feed>
