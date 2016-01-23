@@ -28,7 +28,7 @@ locale: "zh_CN"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and baseurl as '/child/'
-url: "http://github.zybug.com"
+url: "http://github.zybug.com/"
 baseurl: ""
 permalink: /:year/:month/:day/:title
 
