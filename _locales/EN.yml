@@ -9,7 +9,7 @@ en:
     comment: "COMMENT"
 
   sidebar:
-    categories: "CATEGORIES"
+    categories: "分类列表"
     tags: "TAGS"
 
   post:
