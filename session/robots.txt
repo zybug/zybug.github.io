@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://github.zybug.com/session/sitemap.xml 
