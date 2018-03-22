@@ -40,7 +40,7 @@ paginate_path: "/page:num/"
 
 
 # Writing
-highlighter: 'pygments'
+highlighter: 'rouge'
 kramdown:
   input:  GFM
   enable_coderay: true
